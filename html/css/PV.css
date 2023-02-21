@@ -3,12 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face{
+    font-family: 'Vogue';
+    src: url(./Fuentes/Vogue.ttf);
+}
+body{
+    background-image: url(./imagenes/PV.png);
+}
+.total{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    margin-left: 10%;
+}
+.ti{
+    font-family: 'Vogue';
+    font-size: 8vh;
+    margin-left: -5.5vh;
+}
+.tx1{
+    margin-top: 3vh;
+    margin-left: 10vh;
+    text-align: left;
+}
+.tx2{
+    margin-top: 5vh;
+    margin-left: 10vh;
+    text-align: left;
+}
+.t{
+    margin-left:-5vh;
+}
 .linea label{
-    display: flex;
-    float: left;
+
     font-size: 5vh;
     cursor: pointer;
-    color: white;
+    color: black;
     margin-left: 1vh;
 }
 #pe{
