@@ -3,17 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: url(./imagenes/mv.jpg);
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
+body {
+    margin: 0%;
+    padding: 0%;
+    
+     
+}
+#pantalla-dividida{
+    width: 100%;
+    height: 80vh;
+    display: flexbox;
+}
+.izquierda{
+    width: 50%;
+    height: 80vh;
+    background-color: #ffffffd0;
+    float: left;
+    margin-top: 8%;
+}
+.T1 {
+    text-align: center;
+    font-size: 2.28vh;
+    margin-top: 1.6vh;
+}
+
+.txt1 {
+    text-align: center;
+    font-size: 2.22vh;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:.25vh ;
+}
+
+.T2{
+    text-align: center;
+    font-size: 2.28vh;
+    margin-top: 1.5vh;
+}
+
+.txt2{
+    text-align: center;
+    font-size: 2.22vh;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: .25vh;
+}
+.T3{
+    text-align: center;
+    font-size: 2.2vh;
+    margin-top: 1.5vh;
+}
+
+.txt3{
+    text-align: center;
+    font-size: 2.22vh;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: .25vh;
+}
+.derecha{
+    width: 43%;
+    height: 99.5vh;
+    float: right;
+    background-color: #1c1c1c;
+    display: flex;
+}
+#img{
+    width: 100%;
+    height: 99.5vh;
 }
 .linea label{
-    display: flex;
     float: left;
+    display: flex;
     font-size: 5vh;
     cursor: pointer;
-    color: white;
+    color: black;
     margin-left: 1vh;
 }
 #pe{
