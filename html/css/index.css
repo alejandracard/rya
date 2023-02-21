@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 @font-face{
-    font-family: Vogue;
+    font-family:'Vogue';
     src: url(./Fuentes/Vogue.ttf);
 }
 body{
@@ -30,7 +30,7 @@ body{
 }
 .letras{
     color: #fff;
-    font-family: Vogue;
+    font-family: 'Vogue';
     margin-top: 10%;
     margin-left: 15%;
     font-size: 3vh;
