@@ -6,7 +6,7 @@
 }
 @font-face{
     font-family: 'Vogue';
-    src: url(./Fuentes/Vogue.ttf);
+    src: url(Fuentes/Vogue.ttf);
 }
 .total{
     width: 100%;
@@ -127,6 +127,7 @@
     color: #c7c7c7;
     border-left: 1vh solid transparent;
     transition: all 400ms ease;
+    font-size: 3vh;
 }
 .pestaña-P nav a:hover{
     border-left: 1vh solid #c7c7c7;
